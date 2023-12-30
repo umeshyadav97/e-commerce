@@ -1,0 +1,47 @@
+.container {
+  padding: 50px 30px 178px 150px !important;
+  max-width: 1440px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-self: center !important;
+}
+
+.img_box {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.error_img {
+  width: 380px !important;
+  max-width: 608px !important;
+}
+
+.first_line {
+  text-align: center !important;
+}
+
+.code {
+  font-family: Inter SemiBold !important;
+  font-size: 100px !important;
+  line-height: 101px;
+}
+
+.second_line {
+  text-align: center !important;
+  margin-top: 36px !important;
+}
+
+.header {
+  font-family: Inter SemiBold !important;
+}
+
+.side_header {
+  font-family: Inter SemiBold !important;
+  font-size: 18px !important;
+}
+
+.third_line {
+  text-align: center !important;
+  margin-top: 42px !important;
+}

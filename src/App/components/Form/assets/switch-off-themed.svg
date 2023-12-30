@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="32px" viewBox="0 0 46 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>4DE4469F-11A7-497A-A0F3-6C94E3CB608D@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <ellipse id="path-1" cx="12.5217391" cy="12" rx="10.7329193" ry="10.2857143"></ellipse>
+        <filter x="-46.6%" y="-38.9%" width="193.2%" height="197.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.772933164   0 0 0 0 0.802015895   0 0 0 0 0.85436481  0 0 0 0.237871503 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gomble-Brand-Design-System" transform="translate(-685.000000, -9276.000000)">
+            <g id="Switch" transform="translate(686.000000, 9215.000000)">
+                <g id="Components/Switch/Off" transform="translate(0.000000, 61.000000)">
+                    <g transform="translate(3.130435, 2.000000)">
+                        <rect id="Frame" fill="#DFE7F5" x="0" y="0" width="41.1428571" height="24" rx="12"></rect>
+                        <g id="Oval" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

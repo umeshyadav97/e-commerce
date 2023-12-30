@@ -1,0 +1,22 @@
+.addInvestmentButtonContainerFilter {
+  height: 50px;
+  background-image: radial-gradient(
+    137.5% 137.5% at 64.58% 4.17%,
+    #5775e6 100%,
+    #445ebe 100%
+  );
+  padding: 12px 22px 12px 22px;
+  width: 112px;
+  cursor: pointer;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.addInvestmentButtonText {
+  font-size: 18px;
+  font-family: "Inter SemiBold";
+  color: #fff;
+  text-align: center;
+}

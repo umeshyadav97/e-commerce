@@ -1,0 +1,526 @@
+.container {
+  padding: 40px 80px 150px 80px !important;
+  padding-right: 80px !important;
+}
+
+.header {
+  font-family: Inter SemiBold !important;
+  /* font-size: 24px; */
+  padding-bottom: 46px !important;
+}
+
+.people {
+  color: #a4b3cc !important;
+  font-family: Inter Regular !important;
+  font-size: 24px !important;
+  line-height: 40px !important;
+}
+
+/* Ready To Wear Card List */
+
+.designerCard {
+  padding: 10px;
+  border-radius: 8px !important;
+  min-width: 311px !important;
+  border: 1px solid #dfe7f5;
+  min-height: 260px;
+}
+
+.designerCardTop {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.designerCardBottom {
+  width: 90px !important;
+  height: 90px !important;
+  padding: 5px;
+}
+.name {
+  font-family: Inter SemiBold !important;
+  font-size: 20px !important;
+  color: #242424 !important;
+  cursor: pointer !important;
+  /* margin-bottom: -20px !important; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.brandName {
+  font-family: Inter SemiBold !important;
+  font-size: 16px !important;
+  color: #242424 !important;
+  cursor: pointer !important;
+  margin-top: -12px;
+}
+.brandName2 {
+  font-family: Inter SemiBold !important;
+  font-size: 24px !important;
+  line-height: 40px !important;
+  color: #242424 !important;
+}
+.designerMail {
+  font-family: Inter Regular !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #443445 !important;
+  word-wrap: break-word;
+}
+.location {
+  font-family: Inter Regular !important;
+  font-size: 14px !important;
+  color: #242424 !important;
+  cursor: pointer !important;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.link {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: #242424 !important;
+}
+.link:hover {
+  color: #fc68a2 !important;
+}
+
+.listCtr {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 96px !important;
+}
+
+.imgCtr {
+  width: 100px !important;
+  height: 108px !important;
+  border-radius: 59px !important;
+  cursor: pointer;
+  /* padding-left: 10px; */
+}
+
+.SRC {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: fill !important;
+  border-radius: 16px !important;
+  cursor: pointer;
+}
+.desMoto {
+  padding-top: 14px !important;
+  font-family: Inter Medium !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 30px !important;
+  color: #708099 !important;
+  /* word-wrap: break-word; */
+  word-break: break-word;
+}
+.price {
+  margin-top: 12px;
+  font-style: Inter Regular !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 20px;
+  color: #708099 !important;
+}
+.ratingVal {
+  margin-top: 12px;
+  font-style: Inter Regular !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 20px;
+  color: #708099 !important;
+}
+.productsSRC {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+}
+.rating {
+  margin-top: 12px !important;
+}
+.recentProductCtr {
+  display: flex;
+  width: 90px !important;
+  height: 90px !important;
+  border-radius: 8px !important;
+  border: 1px solid rgb(223, 231, 245) !important;
+  align-items: center;
+}
+
+.bottom {
+  height: 500px !important;
+}
+
+.designerDetailLeft {
+  background-color: #f9f8fd;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.designerDetailRight {
+  height: 85%;
+  width: 35%;
+}
+.designerProfile {
+  padding-left: 20px !important;
+  border-bottom: 1px solid #dfe7f5 !important;
+}
+.cover-image {
+  position: relative;
+  width: 40%;
+  height: 80%;
+  left: 44%;
+  top: -87%;
+  border-radius: 8px;
+}
+
+@media (max-width: 1158px) {
+  .cover-image {
+    width: 40%;
+    left: 42%;
+  }
+}
+@media (max-width: 1024px) {
+  .cover-image {
+    width: 32%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 950px) {
+  .cover-image {
+    width: 28%;
+    left: 55%;
+  }
+}
+@media (max-width: 860px) {
+  .cover-image {
+    width: 28%;
+    left: 65%;
+  }
+}
+@media (max-width: 702px) {
+  .cover-image {
+    width: 28%;
+    left: 70%;
+  }
+}
+@media (max-width: 640px) {
+  .cover-image {
+    display: none;
+  }
+}
+@media (max-width: 620) {
+  .cover-image {
+    display: none;
+  }
+}
+.wishlistIcon {
+  position: absolute;
+  cursor: pointer;
+  width: 16px !important;
+  height: 20px !important;
+  right: 3%;
+  top: 5%;
+}
+.designerList {
+  padding-top: 30px !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+}
+
+.imgCtrDetails {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 70px !important;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+}
+
+.flex {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+.desName {
+  font-family: Inter Regular !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #708099 !important;
+  white-space: nowrap;
+}
+.separator2 {
+  background: #708099 !important;
+  border: 0px solid #708099 !important;
+  width: 2px;
+  height: 20px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.desLoc {
+  padding-top: 12px !important;
+  font-family: Inter Regular !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #242424 !important;
+}
+
+.desEmail {
+  padding-top: 14px !important;
+  font-family: Inter Regular !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #242424 !important;
+}
+
+.desBrand {
+  padding-top: 14px !important;
+  font-family: Inter Medium !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #242424 !important;
+}
+
+.desProdList {
+  padding-bottom: 20px !important;
+  font-family: Inter Regular !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #242424 !important;
+}
+
+.desProdCount {
+  padding-bottom: 20px !important;
+  font-family: Inter SemiBold !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #242424 !important;
+}
+
+.topCtr {
+  padding: 20px 20px 20px 20px !important;
+  border-bottom: 1px solid #dfe7f5 !important;
+  align-items: center !important;
+}
+
+/* .bottomCtr {
+  padding-top: 20px !important; 
+  padding-bottom: 20px !important; */
+/* padding-left: 70px !important; */
+/* } */
+
+.allProducts {
+  font-family: Inter SemiBold !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  color: #242424 !important;
+  align-items: center !important;
+}
+
+.title {
+  font-family: Inter SemiBold !important;
+  font-size: 18px !important;
+}
+
+.separator {
+  border: 1px solid #dfe7f5 !important;
+  width: 2px !important;
+  height: 30px !important;
+  margin-right: 22px !important;
+  margin-left: 22px !important;
+}
+.horizontal-list {
+  display: flex;
+  align-items: center;
+}
+
+.cover {
+  width: 100% !important;
+  height: 410px;
+}
+.products-listing {
+  width: 100% !important;
+}
+
+.filters {
+  width: 100% !important;
+  align-items: center;
+}
+.allProducts {
+  display: flex;
+  align-items: center !important;
+}
+.textSelected {
+  font-family: Inter Regular !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #242424;
+}
+.itemSelected {
+  border-radius: 4px !important;
+  background: #dfe7f5 !important;
+  height: 32px !important;
+}
+
+.itemUnselected {
+  height: 32px !important;
+}
+.textUnselected {
+  border-radius: 8px !important;
+  font-family: Inter Regular !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #708099 !important;
+}
+
+.filterCtr {
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .mainCtr {
+    grid-template-columns: 1fr 2fr !important;
+  }
+
+  .overlay {
+    padding: 40px 40px !important;
+  }
+
+  .allProducts {
+    margin-bottom: 20px !important;
+  }
+
+  .filterCtr {
+    justify-content: flex-start !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .filterCtr {
+    justify-content: space-between !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainCtr {
+    display: grid !important;
+    grid-template-rows: auto !important;
+    grid-template-columns: none !important;
+  }
+
+  .overlay {
+    padding: 40px 20px !important;
+  }
+
+  .separator {
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+  }
+
+  .container {
+    padding: 30px !important;
+  }
+
+  .personalDetail {
+    margin-top: 10px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* margin-left: 10px !important; */
+    word-wrap: break-word;
+  }
+  .eMail {
+    font-family: Inter Medium !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #242424 !important;
+  }
+
+  .viewDetail {
+    margin-top: 20px !important;
+  }
+
+  .bottomImgCtr {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px !important;
+  }
+
+  .designerCardTop {
+    padding-top: 40px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 424px) {
+  .allProducts {
+    margin-bottom: 10px !important;
+  }
+
+  .separator {
+    display: none !important;
+  }
+
+  .title {
+    margin-bottom: 10px !important;
+  }
+
+  .hero_section {
+    padding: 60px 60px 120px;
+  }
+
+  .content_section {
+    margin: 24px 0px 42px;
+  }
+
+  .shop_now_btn {
+    max-width: 186px;
+  }
+  .hero_img {
+    width: 100%;
+    /* height: auto; */
+    max-height: 376px;
+    /* max-width: 630px; */
+  }
+  .btn_text {
+    font-family: Inter SemiBold;
+    font-size: 18px;
+  }
+
+  .arrow {
+    margin-left: 10px;
+  }
+  .second_header {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 48px !important;
+
+    text-transform: capitalize !important;
+
+    color: #000000 !important;
+  }
+  .category {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px !important;
+    align-items: center;
+  }
+
+  .container {
+    padding: 20px !important;
+  }
+}
+
+/* End of new file */

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>ED4D867F-5CF7-4596-A8C3-8DB98F0ABA1D@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gomble-Consumer-Landing-Page" transform="translate(-435.000000, -1318.000000)">
+            <g id="Group-46" transform="translate(0.000000, 920.000000)">
+                <g id="Group-45" transform="translate(80.000000, 70.000000)">
+                    <g id="Group-43" transform="translate(0.000000, 205.000000)">
+                        <g id="Group-42" transform="translate(0.000000, 98.000000)">
+                            <g id="Button" transform="translate(330.000000, 0.000000)">
+                                <g id="Group-37" transform="translate(25.000000, 25.000000)">
+                                    <path d="M16.8676658,-6.81473887e-16 L43.1323342,6.81473887e-16 C48.9975891,-3.95955953e-16 51.1244722,0.61069481 53.2687217,1.757452 C55.4129712,2.90420919 57.0957908,4.58702875 58.242548,6.73127827 C59.3893052,8.87552778 60,11.0024109 60,16.8676658 L60,43.1323342 C60,48.9975891 59.3893052,51.1244722 58.242548,53.2687217 C57.0957908,55.4129712 55.4129712,57.0957908 53.2687217,58.242548 C51.1244722,59.3893052 48.9975891,60 43.1323342,60 L16.8676658,60 C11.0024109,60 8.87552778,59.3893052 6.73127827,58.242548 C4.58702875,57.0957908 2.90420919,55.4129712 1.757452,53.2687217 C0.61069481,51.1244722 2.63970635e-16,48.9975891 -4.54315924e-16,43.1323342 L4.54315924e-16,16.8676658 C-2.63970635e-16,11.0024109 0.61069481,8.87552778 1.757452,6.73127827 C2.90420919,4.58702875 4.58702875,2.90420919 6.73127827,1.757452 C8.87552778,0.61069481 11.0024109,3.95955953e-16 16.8676658,-6.81473887e-16 Z" id="Base" fill="#FFE2ED"></path>
+                                    <g id="add-measurement" transform="translate(14.000000, 15.000000)" fill-rule="nonzero">
+                                        <rect id="Rectangle" stroke="#242424" stroke-width="2.06896552" fill="#FFFFFF" stroke-linejoin="round" x="9.31158672" y="6.79531071" width="9.31158672" height="8.8119315"></rect>
+                                        <path d="M9.31158672,13.5512697 L9.31158672,6.79537278 L0,6.79537278 L0,23.056015 C0,26.686429 2.94306223,29.6294913 6.57347622,29.6294913 L31.7793121,29.6294913 L31.7793121,13.5512697 L9.31158672,13.5512697 Z" id="Path" stroke="#242424" stroke-width="2.06896552" fill="#FFFFFF" stroke-linejoin="round"></path>
+                                        <g id="Group" transform="translate(4.344828, 18.455173)" fill="#FC68A2">
+                                            <path d="M1.88273803,10.1398351 C1.88273803,10.1398351 0.612186238,10.0426351 0.0206689667,9.75978672 C0.0206689667,9.31133845 0.0206689667,2.89998637 0.0206689667,2.89998637 L1.88273803,2.89998637 L1.88273803,10.1398351 Z" id="Path"></path>
+                                            <rect id="Rectangle" x="5.31744859" y="2.89986223" width="1.86206907" height="7.23972455"></rect>
+                                            <rect id="Rectangle" x="10.6137937" y="0.0490344854" width="1.86206907" height="10.0905523"></rect>
+                                            <rect id="Rectangle" x="15.9101388" y="2.89986223" width="1.86206907" height="7.23972455"></rect>
+                                            <rect id="Rectangle" x="21.2071046" y="2.89986223" width="1.86206907" height="7.23972455"></rect>
+                                        </g>
+                                        <ellipse id="Oval" stroke="#242424" stroke-width="2.06896552" fill="#FFFFFF" stroke-linejoin="round" cx="9.31158672" cy="6.79531071" rx="9.31158672" ry="6.75558657"></ellipse>
+                                        <ellipse id="Oval" fill="#FC68A2" cx="9.31158672" cy="6.79531071" rx="3.8588278" ry="2.79993119"></ellipse>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

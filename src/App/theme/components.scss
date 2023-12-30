@@ -1,0 +1,157 @@
+.wide-btn {
+  width: 160px;
+}
+$primary-text-blue: #050d33;
+$secondary-text-grey: #82889c;
+
+.btn-grp-prime {
+  .MuiToggleButtonGroup-root {
+    border-radius: 22px;
+    background-color: #f3f4f7;
+
+    .MuiButtonBase-root {
+      color: $primary-text-blue;
+      font-size: 14px;
+      height: 44px;
+      min-width: 130px;
+      border: none;
+      background-color: #f3f4f7;
+      border-radius: 22px;
+    }
+
+    .Mui-selected {
+      border-radius: 24px;
+      font-size: 14px;
+      font-weight: 400;
+      background: linear-gradient(135.21deg, #d831b4 0%, #6241e9 100%);
+      color: #ffffff;
+      z-index: 10;
+    }
+  }
+}
+
+.btn-grp-big {
+  .MuiToggleButtonGroup-root {
+    border-radius: 22px;
+    background-color: white;
+
+    .MuiButtonBase-root {
+      color: $primary-text-blue;
+      font-size: 14px;
+      font-weight: bolder;
+      height: 44px;
+      padding: 4px 44px;
+      min-width: 130px;
+      border: none;
+      background-color: white;
+      border-radius: 22px;
+    }
+
+    .Mui-selected {
+      border-radius: 24px;
+      font-size: 14px;
+      font-weight: 400;
+      background: linear-gradient(135.21deg, #d831b4 0%, #6241e9 100%);
+      color: #ffffff;
+      z-index: 10;
+    }
+  }
+}
+
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+}
+
+.MuiSelect-select {
+  font-size: 14px !important;
+  line-height: 20 / 13 !important;
+  font-weight: 500 !important;
+  padding: 13px 13px !important;
+  padding-left: 20px !important;
+}
+
+.MuiOutlinedInput-input {
+  font-family: Inter Regular !important;
+  font-size: 16px !important;
+}
+
+.MuiOutlinedInput-adornedStart {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.MuiMenu-paper {
+  border-radius: 8px !important;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+  .MuiMenu-list {
+    .MuiMenuItem-root {
+      font-size: 16px !important;
+      font-family: Inter Regular !important;
+    }
+  }
+}
+
+.MuiFormLabel-root:not(.MuiInputLabel-shrink) {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  padding-left: 10px;
+  margin-top: -4px;
+}
+
+// Toast Custom Styles
+.Toastify__toast--error {
+  font-family: Inter Regular;
+  color: #ffffff;
+  background-color: #f36666;
+  border-radius: 14px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .Toastify__toast--error {
+    font-family: Inter Regular;
+    color: #ffffff;
+    background-color: #f36666;
+    border-radius: 14px;
+    font-size: 14px;
+    max-width: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+.Toastify__toast--success {
+  font-family: Inter Regular;
+  color: #ffffff;
+  background-color: #fc68a2;
+  border-radius: 14px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .Toastify__toast--success {
+    font-family: Inter Regular;
+    color: #ffffff;
+    background-color: #fc68a2;
+    border-radius: 14px;
+    font-size: 14px;
+    max-width: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+// Error Message Text
+.MuiFormHelperText-root.Mui-error {
+  color: #f36666 !important;
+  font-family: Inter Medium;
+  font-size: 14px;
+}
+
+// Mobile screen sizes
+@media only screen and (max-width: 600px) {
+  .MuiOutlinedInput-input {
+    font-size: 14px !important;
+  }
+}
+
+.MuiInputBase-multiline {
+  padding: 18.5px 14px !important;
+}

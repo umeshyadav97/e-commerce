@@ -1,0 +1,118 @@
+.rootContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  background-color: transparent;
+  margin: 20px 130px;
+  border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+}
+
+.formContainer {
+  padding-top: 88px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 40px;
+  width: 550px;
+  background-color: white;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+}
+
+.imageContainer {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+.imageContent {
+  padding: 130px 64px;
+}
+
+.emailSentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.rightContainer {
+  margin-left: 128px;
+}
+
+.signupContainer {
+  margin-left: 112px;
+}
+
+.otpContainer {
+  margin-left: 96px;
+  margin-bottom: 56px;
+}
+
+.otpSendContainer {
+  margin-left: 96px;
+  margin-top: 28px;
+}
+
+.resetContainer {
+  margin-left: 96px;
+}
+
+.otpSubmitContainer {
+  margin-left: 96px;
+}
+
+@media(max-width: 1024px){
+  .otpSendContainer {
+    margin-left: 72px;
+  }
+}
+
+@media(max-width: 768px){
+  .rightContainer {
+    margin-left: 56px;
+  }
+  .otpContainer {
+    margin-left: 25px;
+  }
+
+  .otpSendContainer {
+    margin-left: 25px;
+  }
+
+  .otpSubmitContainer {
+    margin-left: 56px;
+  }
+  .signupContainer {
+    margin-left: 56px;
+  }
+  .resetContainer {
+    margin-left: 56px;
+  }
+}
+
+@media(max-width: 424px){
+  .rightContainer {
+    margin-left: 42px;
+  }
+
+  .signupContainer {
+    margin-left: 42px;
+  }
+
+  .otpSubmitContainer {
+    margin-left: 42px;
+  }
+
+  .resetContainer {
+    margin-left: 42px;
+  }
+}

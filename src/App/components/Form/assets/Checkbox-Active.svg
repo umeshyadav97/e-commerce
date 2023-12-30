@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>14014A4A-D549-46F3-8A09-AE4384A68125@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gomble-Brand-Design-System" transform="translate(-96.000000, -9091.000000)">
+            <g id="Checkbox" transform="translate(48.000000, 9030.000000)">
+                <g id="Components/Checkbox/Active" transform="translate(48.000000, 61.000000)">
+                    <g>
+                        <g>
+                            <rect id="Frame" stroke="#FC68A2" stroke-width="1.6" fill="#FFFFFF" x="0.8" y="0.8" width="22.4" height="22.4" rx="6"></rect>
+                            <g id="Icons/16px/Check" transform="translate(7.000000, 8.000000)" fill="#FC68A2" fill-rule="nonzero">
+                                <path d="M8.49372931,0.758435193 C8.83830957,0.413854936 9.39698455,0.413854936 9.74156481,0.758435193 C10.0861451,1.10301545 10.0861451,1.66169043 9.74156481,2.00627069 L4.44744716,7.30038834 C4.1028669,7.64496859 3.54419192,7.64496859 3.19961166,7.30038834 L0.258435193,4.35921187 C-0.0861450644,4.01463161 -0.0861450644,3.45595663 0.258435193,3.11137637 C0.60301545,2.76679611 1.16169043,2.76679611 1.50627069,3.11137637 L3.82352941,5.42863509 L8.49372931,0.758435193 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,243 @@
+.container {
+  color: #242424;
+  padding: 47px 80px 120px;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paginationCtr {
+  margin-top: 28px;
+  padding: 16px 0px;
+}
+
+.address_container {
+  color: #242424;
+  margin: 47px 80px 80px 80px;
+  padding-right: 120px;
+  max-width: 1200px;
+}
+
+.label {
+  font-size: 14px;
+  font-family: Inter Medium;
+  margin-bottom: 10px;
+}
+
+.infinite_scroll {
+  width: 100%;
+  /* padding-left: 20px; */
+  /* overflow: hidden; */
+  /* margin-left: 50px; */
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  border-top: 1px solid #dfe7f5;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 58px;
+  overflow: hidden;
+}
+
+.header {
+  color: #242424;
+  font-size: 24px;
+  font-family: Inter SemiBold;
+}
+
+.header_box {
+  border-bottom: 1px solid #dfe7f5;
+  padding-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.back_btn {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 48px;
+  width: 200px;
+}
+
+.saveAddressBtn {
+  width: 290px;
+  margin-top: 10px;
+}
+
+.box {
+  margin-top: 25px;
+  border: 2px solid #dfe7f5;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Inter Regular;
+}
+.sideHeader {
+  font-size: 18px;
+  font-family: Inter SemiBold;
+  word-break: break-word;
+}
+.detailHeader {
+  margin-top: 25px;
+}
+.btn {
+  width: 100px;
+  min-width: 100px;
+  height: 40px;
+  min-height: 40px;
+  border: 2px solid black;
+}
+
+.icon {
+  border: 1px solid #dfe7f5;
+  border-radius: 8px;
+  background-color: #f4f7fd;
+  cursor: pointer;
+  padding: 8px 8px 5px 8px;
+}
+
+.editBtn {
+  border-radius: 8px;
+  border: 2px solid #fc68a2;
+  color: #fc68a2;
+  width: 100px;
+  height: 40px;
+}
+
+.btnText {
+  font-size: 14px;
+  font-family: Inter SemiBold;
+}
+
+.image {
+  height: 347px;
+  margin-top: 45px;
+}
+
+.backImg {
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.addressBtn {
+  width: 205px;
+}
+
+.inputHeader {
+  margin: 0 0 6px 0;
+}
+
+.inputContainer {
+  margin-top: 20px;
+}
+
+.helper {
+  font-family: Inter Medium;
+  font-size: 14px;
+  color: #f36666;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 47px 20px 80px;
+  }
+
+  .address_container {
+    margin: 47px 30px 80px;
+    padding-right: 60px;
+  }
+
+  .header {
+    font-size: 16px;
+  }
+
+  .sideHeader {
+    font-size: 16px;
+  }
+
+  .cancelBtn {
+    width: 100px;
+    min-width: 100px;
+  }
+
+  .saveAddressBtn {
+    width: 170px;
+  }
+
+  .newAddressBtn {
+    width: 180px;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .inputContainer {
+    margin-top: 20px;
+  }
+
+  .action_buttons {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    padding: 47px 20px 80px 50px;
+  }
+  .cancelBtn {
+    width: 120px;
+    min-width: 120px;
+  }
+
+  .saveAddressBtn {
+    width: 180px;
+  }
+
+  .newAddressBtn {
+    width: 180px;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 47px 80px 120px;
+  }
+  .newAddressBtn {
+    width: 290px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cancelBtn {
+    width: 200px;
+  }
+
+  .saveAddressBtn {
+    width: 290px;
+  }
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.Link {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.Link:hover {
+  color: #fc68a2 !important;
+}

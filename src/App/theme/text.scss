@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/fonts/Inter.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Light";
+  src: url(../assets/fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url(../assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url(../assets/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url(../assets/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter ExtraBold";
+  src: url(../assets/fonts/Inter-ExtraBold.ttf);
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.text-muted {
+  color: #82889c;
+}
+
+.p1 {
+  font-size: 15px;
+  line-height: 26px / 15px;
+  font-weight: 400;
+}
+
+.p2 {
+  font-size: 14px;
+  line-height: 22px / 14px;
+  font-weight: 400;
+}
+
+.c1 {
+  font-size: 14px;
+  line-height: 20px / 13px;
+  font-weight: 500;
+}
+.c2 {
+  font-size: 12px;
+  line-height: 17px / 12px;
+  font-weight: 600;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 15px / 11px;
+  font-weight: 600;
+}
+
+.MuiTableCell-body {
+  font-size: 14px;
+  line-height: 18/13;
+  font-weight: normal;
+}
+
+.MuiBreadcrumbs-li > a {
+  font-size: 14px !important;
+  line-height: 20/13 !important;
+  font-weight: normal !important;
+}
+
+.MuiBreadcrumbs-li > .MuiTypography-colorPrimary {
+  text-decoration: underline;
+  color: #fc68a2 !important;
+}
+
+.text-primary {
+  color: rgb(252, 104, 162);
+}

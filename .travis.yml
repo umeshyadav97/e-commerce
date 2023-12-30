@@ -1,0 +1,69 @@
+language: node_js
+node_js:
+  - "12.13"
+# npm cache
+deploy_service_job: &DEPLOY_SERVICE_JOB
+  cache:
+    directories:
+      - node_modules
+      - ${SERVICE_PATH}/node_modules
+# s3 deploy meta
+s3_deploy: &S3_DEPLOY
+  provider: s3
+  region: "us-east-1"
+  skip_cleanup: true
+  local_dir: ./build
+# npm build script
+npm_build_script: &NPM_BUILD_SCRIPT
+  provider: script
+# script: use script and after_script to use for other script execution
+install:
+  - npm install -g travis-ci-cloudfront-invalidation
+# scripts, skipping yarn test
+script:
+  - echo "skipping tests"
+# environment configuration and setup
+environments:
+  # PRODUCTION_ENV credentials for stage and prod
+  - &PRODUCTION_ENV
+    - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID_PRODUCTION}
+    - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_PRODUCTION}
+  # DEVELOPMENT_ENV credentials for dev and qa
+  - &DEVELOPMENT_ENV
+    - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID_DEVELOPMENT}
+    - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_DEVELOPMENT}
+# before deploy step
+before_deploy:
+  - <<: *NPM_BUILD_SCRIPT
+    script:
+      npm install && CI=false npm run build:dev;
+    on:
+      branch: develop
+  - <<: *NPM_BUILD_SCRIPT
+    script:
+      npm install && CI=false npm run build:qa;
+    on:
+      branch: qa
+# deploy step
+deploy:
+  - <<: *S3_DEPLOY
+    access_key_id: ${AWS_ACCESS_KEY_ID_DEVELOPMENT}
+    secret_access_key: ${AWS_SECRET_ACCESS_KEY_DEVELOPMENT}
+    bucket: "customer.dev.gomble.org"
+    on:
+      branch: develop
+  - <<: *S3_DEPLOY
+    access_key_id: ${AWS_ACCESS_KEY_ID_DEVELOPMENT}
+    secret_access_key: ${AWS_SECRET_ACCESS_KEY_DEVELOPMENT}
+    bucket: "customer.qa.gomble.org"
+    on:
+      branch: qa
+# after deploy step
+after_deploy:
+  - travis-ci-cloudfront-invalidation -a $AWS_ACCESS_KEY_ID_DEVELOPMENT -s $AWS_SECRET_ACCESS_KEY_DEVELOPMENT -c $AWS_CLOUDFRONT_DEV_DIST_ID -i '/*' -b $TRAVIS_BRANCH -p $TRAVIS_PULL_REQUEST -o 'develop'
+  - travis-ci-cloudfront-invalidation -a $AWS_ACCESS_KEY_ID_DEVELOPMENT -s $AWS_SECRET_ACCESS_KEY_DEVELOPMENT -c $AWS_CLOUDFRONT_QA_DIST_ID -i '/*' -b $TRAVIS_BRANCH -p $TRAVIS_PULL_REQUEST -o 'qa'
+# allow only master branch
+branches:
+  only:
+    - develop
+    - qa

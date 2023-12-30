@@ -1,0 +1,363 @@
+.Totaltext {
+  font-family: "Inter Regular";
+  font-weight: 500;
+  font-size: 24px;
+  color: #5a5a5a;
+}
+
+.TotaltextContainer {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.amountHead {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+
+.DollerIcon {
+  align-self: center;
+  margin-top: 14px;
+}
+
+.cardName {
+  font-family: "Inter Regular";
+  font-weight: 700;
+  font-size: 20px;
+  color: #242424;
+}
+
+.CardCredits {
+  font-family: "Inter Regular";
+  font-weight: 500;
+  font-size: 16px;
+  color: #708099;
+}
+
+.findStores {
+  font-family: "Inter Regular";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fc68a2;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.CreditCartContainer {
+  border: 2px solid #dfe7f5;
+  border-radius: 8px;
+  /* width: 290px; */
+  padding: 15px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.DesignImageContainer {
+  width: 120px;
+  height: 120px;
+}
+
+.imgDesigner {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  border: 1px solid 242424;
+}
+.table_image {
+  width: 100%;
+  height: 300px !important;
+}
+
+.selfAlign {
+  align-self: center;
+}
+
+.DesignerName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  align-self: center;
+  color: #242424;
+}
+
+.DesignerNameContainer {
+  align-self: center;
+  border-right: 1px solid #dfe7f5;
+}
+
+.StoresListName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #242424;
+}
+
+.StoresListNameContainer {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.CreditDetailCartContainer {
+  border: 1.6px solid #dfe7f5;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.container16To9 {
+  margin: 10px;
+  height: 90px;
+  min-width: 90%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.image_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+}
+.Box {
+  display: flex !important;
+  margin-top: 10px;
+  height: min-content;
+  margin-right: 10px;
+}
+.locationIcon {
+  margin-right: 10px;
+  margin-left: 7px;
+  margin-top: 3px;
+  align-self: baseline;
+}
+.muted_text {
+  font-family: Inter Regular;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #708099;
+  text-overflow: ellipsis !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.heading {
+  font-family: "Inter SemiBold";
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.subHeading {
+  font-family: "Inter Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  word-break: break-all !important;
+  word-break: break-word;
+}
+
+.tabs {
+  border-bottom: 1px solid #dfe7f5;
+}
+
+@media screen and (max-width: 1279px) {
+  /* .tabs {
+    border-bottom: none;
+  } */
+  .filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  /* .tabs_container {
+    border-bottom: 1px solid #dfe7f5;
+  } */
+  .CreditCartContainer {
+    margin-top: 10px;
+    height: 70%;
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.stepCtr {
+  padding-top: 28px;
+  padding-bottom: 26px;
+  padding-left: 22px;
+  padding-right: 22px;
+  cursor: pointer;
+}
+
+.activeStepCtr {
+  padding-top: 28px;
+  padding-bottom: 26px;
+  margin-left: 22px;
+  margin-right: 22px;
+  border-bottom: 4px solid #000000;
+  border-radius: 2px;
+}
+
+.stepText {
+  font-family: "Inter Regular";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #708099;
+}
+
+.activeStepText {
+  font-family: "Inter Regular";
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #242424;
+}
+
+.table_header_box {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .table_header_box {
+    width: 1000px !important;
+    max-width: 1000px !important;
+  }
+
+  .table_cell_box {
+    width: 1000px !important;
+    max-width: 1000px !important;
+  }
+  .Overflow {
+    overflow-x: auto;
+  }
+}
+
+.table_cell_box {
+  width: 100%;
+  max-width: 100%;
+}
+
+.Staff_header {
+  border-radius: 8px;
+  height: 44px;
+  background-color: #ecf1f9;
+  display: grid !important;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1.5fr 1fr 0.7fr !important;
+  padding: 10px;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.Staff_header .header {
+  font-family: Inter Medium;
+  font-size: 14px;
+}
+
+.table_cell {
+  height: 60px;
+  border-bottom: 1px solid #dfe7f5;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.table_cell .content {
+  font-family: Inter Regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  word-break: break-word;
+  display: flex;
+}
+
+.staff_table {
+  display: grid !important;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1.5fr 1fr 0.7fr !important;
+  padding: 10px;
+  align-items: center;
+  column-gap: 10px;
+  height: auto;
+}
+
+.filter_button {
+  width: 116px;
+  height: 46px;
+  /* padding: 12px 24px !important; */
+  background: #ffffff !important;
+  border: 1px solid #708099 !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+  justify-content: space-evenly;
+}
+
+.filter_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #242424;
+}
+
+.Multiselectlabel {
+  font-family: "Inter SemiBold" !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  color: #242424;
+}
+
+.MultiSelectListItems {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: #242424;
+}
+
+.Overflow {
+  width: 100%;
+}
+
+.back_btn {
+  font-family: Inter Medium;
+  color: #fc68a2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Link {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.Link:hover {
+  color: #fc68a2 !important;
+}

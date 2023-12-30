@@ -1,0 +1,512 @@
+.container {
+  padding: 15px 80px 145px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: 2fr 1fr;
+}
+
+.cart_box {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: auto;
+}
+
+.breadcrumbs {
+  margin-bottom: 30px;
+}
+
+.breadcrumbs_text {
+  font-family: Inter Medium;
+  font-size: 14px;
+  font-weight: 500;
+  color: #242424;
+  cursor: pointer;
+}
+
+.header {
+  font-family: Inter SemiBold;
+  padding-bottom: 15px;
+}
+
+.header_border {
+  border-bottom: 1px solid #dfe7f5;
+  padding-bottom: 15px;
+}
+
+.side_header {
+  font-family: Inter SemiBold;
+  font-size: 18px;
+}
+
+.count_text {
+  color: #708099;
+}
+
+.empty_orders {
+  margin-top: 90px;
+}
+
+.empty_cart_image {
+  height: 288px;
+  margin-bottom: 50px;
+}
+
+.first_line {
+  margin-bottom: 10px;
+}
+
+.muted_line {
+  margin-bottom: 30px;
+}
+
+.muted_text {
+  font-family: Inter Regular;
+  color: #708099;
+  font-size: 14px;
+}
+
+.shop_now_btn {
+  width: 186px;
+}
+
+/* Ready-to-wear */
+
+.card {
+  padding: 30px 0px;
+  border-bottom: 1px solid #dfe7f5;
+}
+
+.cart_image {
+  width: 190px;
+  height: 210px;
+  /* object-fit: contain; */
+  margin-right: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(223, 231, 245);
+}
+
+.cart_title {
+  align-items: center;
+}
+
+.product_title {
+  font-family: Inter SemiBold;
+  font-size: 18px;
+  text-transform: capitalize;
+  word-break: break-word;
+}
+
+.label {
+  font-family: Inter SemiBold;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.content {
+  font-family: Inter Regular;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.remove {
+  color: #fc68a2;
+  cursor: pointer;
+  /* margin-top: 40px; */
+}
+
+.coupon_msg {
+  color: #01bf81;
+  font-family: Inter SemiBold;
+  font-size: 16px;
+}
+
+.error_msg {
+  color: #f36666;
+  font-family: Inter SemiBold;
+  font-size: 16px;
+}
+
+.size {
+  margin-top: 30px;
+}
+
+.info_grid {
+  margin-top: 15px;
+}
+
+.style_grid {
+  margin-top: 6px;
+}
+
+.min_add_button {
+  /* width: 181px; */
+  height: 48px;
+  margin-top: 40px;
+}
+
+.min_add_button .operation {
+  background: white;
+  color: #242424;
+  border: 0px;
+  padding: 11px 16px;
+  border: 2px solid #dfe7f5;
+  cursor: pointer;
+}
+
+.min_add_button .quantity {
+  font-family: Inter Bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 11px 30px 13px;
+  color: #242424;
+  background-color: #f4f7fd;
+}
+
+.left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.min_add_button .right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: 2px solid #dfe7f5 !important;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #242424;
+}
+.link:hover {
+  color: #fc68a2;
+}
+
+/* Promo code */
+
+.promo_card {
+  /* margin: 30px 0px 10px; */
+  padding: 30px;
+  /* max-width: 380px; */
+  border-radius: 8px;
+  border: 2px solid #dfe7f5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.applied_code {
+  background-color: #f4f7fd;
+  border-radius: 8px;
+  margin-top: 30px;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.applied_code_text {
+  font-family: Inter Regular;
+  font-size: 14px;
+}
+
+.applied_code_header {
+  font-family: Inter SemiBold;
+  font-size: 14px;
+  margin-left: 6px;
+  margin-right: 6px;
+  word-break: break-all;
+}
+
+.input_label {
+  font-family: Inter Medium;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.primaryOutlinedBtn {
+  width: 100%;
+  height: 48px;
+  margin-top: 30px;
+}
+
+.apply_btn {
+  color: #fc68a2;
+  cursor: pointer;
+}
+
+.view_coupon_text {
+  font-family: Inter Regular;
+  font-size: 14px;
+  color: #fc68a2;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.payment_header {
+  margin-bottom: 30px;
+}
+
+.sub_total {
+  border-bottom: 1px solid #dfe7f5;
+  padding-bottom: 20px;
+}
+
+.shipping {
+  border-bottom: 1px solid #dfe7f5;
+  padding: 20px 0px;
+}
+
+.total {
+  padding: 20px 0px 0px;
+}
+
+.continue_btn {
+  margin-top: 30px;
+}
+
+.payment_text {
+  font-family: Inter Regular;
+  color: #708099;
+  font-size: 14px;
+}
+
+.breakup_text {
+  font-family: Inter Medium;
+  color: #fc68a2;
+  font-size: 14px;
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+.Invoice_Button_text {
+  font-family: Inter Medium;
+  color: #fc68a2;
+  font-size: 14px;
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+.payment_amount {
+  font-family: Inter Regular;
+  font-size: 16px;
+}
+
+.total_text {
+  font-family: Inter SemiBold;
+  font-size: 16px;
+}
+
+/* Shipping */
+.address_card {
+  margin-top: 25px;
+  border: 2px solid #dfe7f5;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Inter Regular;
+}
+
+.icon {
+  border: 1px solid #dfe7f5;
+  border-radius: 8px;
+  background-color: #f4f7fd;
+  cursor: pointer;
+  padding: 8px 8px 5px 8px;
+}
+
+.radio {
+  margin-top: 5px;
+}
+
+.empty_address_image {
+  height: 300px;
+  margin-top: 45px;
+}
+
+/* Payment -listing */
+.choose_payment {
+  margin-top: 25px;
+  font-family: "Inter SemiBold";
+  font-size: 18px;
+}
+
+.payment_selection {
+  margin-top: 30px;
+  border-radius: 8px;
+  background-color: #f4f7fd;
+  margin-bottom: auto;
+}
+
+.chosen_payment {
+  margin-top: 30px;
+}
+
+.payment_selection .active {
+  border-left: 8px solid #fc68a2;
+  background-color: #ffffff;
+}
+
+.payment_mode_card {
+  padding: 28px 5px 28px 20px;
+  border-left: 8px solid #f4f7fd;
+  border-top-left-radius: 8px;
+}
+
+.payment_mode_credit {
+  padding: 28px 0px 28px 20px;
+  border-left: 8px solid #f4f7fd;
+  border-bottom-left-radius: 8px;
+  word-wrap: break-word;
+}
+
+.paymnet_mode_text {
+  font-family: Inter SemiBold;
+  font-size: 14px;
+}
+
+/* Stripe */
+
+.card_label {
+  margin-bottom: 5px;
+  font-family: "Inter Medium";
+  font-size: 14px;
+}
+
+.card_input {
+  margin-bottom: 30px;
+}
+
+input {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  /* box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px; */
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+input::placeholder {
+  color: #aab7c4;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.IdealBankElement,
+.StripeElement.FpxBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.StripeElement.PaymentRequestButton {
+  height: 40px;
+}
+
+/* Stripe-end */
+
+/* Saved Cards */
+
+.saved_card {
+  border: 1px solid #dfe7f5;
+  padding: 18px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  max-width: 422px;
+}
+
+.empty_card_image {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.brand_icon {
+  margin-right: 14px;
+}
+
+.card_no {
+  font-size: 14px;
+  margin: -2px 0px 8px;
+}
+
+.card_name {
+  color: #708099;
+  font-size: 14px;
+}
+
+.remove_btn {
+  width: 140px;
+  min-width: 140px;
+  height: 48px;
+  min-height: 48px;
+  /* border: 2px solid black; */
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 15px 30px 50px;
+  }
+  .box {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+  }
+  .address_action_buttons {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .box {
+    grid-template-columns: 1fr;
+    /* gap: 0px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cart_box {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .chosen_payment {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .box {
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+  }
+  .cart_box {
+    margin-top: 0px;
+    gap: 0px;
+    grid-template-columns: 1fr;
+  }
+  .shipping_box {
+    margin-top: 105px;
+  }
+}

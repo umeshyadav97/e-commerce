@@ -1,0 +1,39 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+  box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 8px !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #DFE7F5 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FC68A2 !important;
+}
+
+.MuiAutocomplete-inputRoot {
+  padding: 3px !important;
+}
+
+.MuiFormHelperText-contained {
+  margin-left: 0px !important;
+}
+
+//overriding mui-checkbox label css
+
+.MuiFormControlLabel-label{
+  font-size: 14px !important;
+  font-family:Inter Regular !important;
+  line-height: 20px !important;
+  font-weight: 500 !important;;
+}

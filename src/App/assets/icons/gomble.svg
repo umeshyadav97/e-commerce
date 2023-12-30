@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="41px" viewBox="0 0 130 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>29FA9729-3A01-4A02-AC8E-2B1EDB87440C</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gomble-Brand-Design-System" transform="translate(-50.000000, -11100.000000)">
+            <g id="Group-28" transform="translate(50.000000, 11096.000000)">
+                <path d="M20.1515152,44.3846154 C31.2808897,44.3846154 35,35.3442113 35,24.1923077 C35,13.0404041 31.2808897,4 20.1515152,4 C9.02214065,4 0,13.0404041 0,24.1923077 C0,35.3442113 9.02214065,44.3846154 20.1515152,44.3846154 Z" id="Mask" fill="#FFE2ED"></path>
+                <text id="Gomble" font-family="Inter-Bold, Inter" font-size="32" font-weight="bold" line-spacing="48" fill="#242424">
+                    <tspan x="10" y="31">Gomble</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

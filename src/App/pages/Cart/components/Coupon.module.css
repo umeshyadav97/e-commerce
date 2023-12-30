@@ -1,0 +1,62 @@
+.modal_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.coupon_box {
+  border: 1px solid #dfe7f5;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.info_container {
+  margin-top: 30px;
+}
+
+.modal_radio {
+  padding-top: 5px;
+}
+
+.label {
+  font-family: Inter Medium;
+  font-size: 14px;
+  padding-bottom: 6px;
+  word-break: break-all;
+}
+
+.off_text {
+  font-family: Inter Regular;
+  font-size: 14px;
+}
+
+.btn_text {
+  font-family: Inter SemiBold;
+  font-size: 18px;
+}
+
+.expiry_date {
+  font-family: Inter Regular;
+  font-size: 12px;
+}
+
+/* empty state */
+
+.empty_image {
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.first_line {
+  margin-bottom: 10px;
+}
+
+.muted_line {
+  margin-bottom: 30px;
+}
+
+.muted_text {
+  font-family: Inter Regular;
+  color: #708099;
+  font-size: 14px;
+}

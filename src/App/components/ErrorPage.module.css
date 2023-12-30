@@ -1,0 +1,59 @@
+.container {
+  padding: 50px 30px 178px 150px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .img_box {
+  padding-right: 126px;
+}
+
+.info_box{
+  display: flex;
+  justify-content: center;
+} */
+
+.error_img {
+  width: 100%;
+  max-width: 608px;
+}
+
+.first_line {
+  text-align: center;
+}
+
+.code {
+  font-family: Inter SemiBold !important;
+  font-size: 100px !important;
+  line-height: 121px;
+}
+
+.second_line {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.header {
+  font-family: Inter SemiBold;
+}
+
+.side_header {
+  font-family: Inter SemiBold;
+  font-size: 18px;
+}
+
+.third_line {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.content {
+  font-family: Inter Regular;
+  font-size: 18px;
+}
+
+.fourth_line {
+  text-align: center;
+  margin-top: 42px;
+}
